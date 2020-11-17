@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="initApp">
+  <head>
+    <title ng-bind="title"></title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Scripts Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/X.Y.Z/angular-animate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular.min.js" integrity="sha512-7oYXeK0OxTFxndh0erL8FsjGvrl2VMDor6fVqzlLGfwOQQqTbYsGPv4ZZ15QHfSk80doyaM0ZJdvkyDcVO7KFA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-route/1.8.2/angular-route.min.js" integrity="sha512-5zOAub3cIpqklnKmM05spv4xttemFDlbBrmRexWiP0aWV8dlayEGciapAjBQWA7lgQsxPY6ay0oIUVtY/pivXA==" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#!">Happy</a></li>
+                <li><a href="#!sobre">Sobre</a></li>
+                <li><a href="#!contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+<section ng-view></section>
+<!-- <script src="js/modules.js"></script> -->
+<script src="js/routes.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+</body>
+</html>
