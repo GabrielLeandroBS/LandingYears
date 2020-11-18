@@ -91,7 +91,8 @@ body section.container section.happy input{
   border: none;
 
 }
-@media screen and (max-width: 902px){
+@media screen and (max-width: 700px){
+  
   body section.container {
     height: 100vh;
     width: 100%;
@@ -103,5 +104,35 @@ body section.container section.happy input{
     flex-direction: column;
     background-size: cover;
     background-color: white;
+  }
+
+  body header nav  ul li a{
+    color: #fff !important;
+    transition: color 1s ease-in-out;
+  }
+
+  body section.container section.logo{
+    background-size: contain;
+    height: 50vh;
+  }
+  
+  body section.container section.happy{
+    width: 100%;
+  }
+
+  body section.container section.happy h2{
+    font-size: 3vw;
+  }
+
+  body section.container section.happy div p:nth-of-type(1){
+    font-size: 5vw;
+    transition: color 1s ease-in-out;
+    color: #fff
+  }
+
+  body section.container section.happy div p{
+    color: #fff;
+    font-size: 3vw;
+    transition: color 1s ease-in-out;
   }
 }
