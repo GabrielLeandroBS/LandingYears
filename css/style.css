@@ -12,7 +12,7 @@ html, body{
 
 header{
     width: 100%;
-    position: absolute  ;
+    position: absolute;
     text-align: center;
 }
 
@@ -29,5 +29,6 @@ header nav ul li a{
     text-decoration: none;
     color: #ffffff;
     font-size: 1em;
+    z-index: 9;
 }
 

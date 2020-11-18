@@ -89,27 +89,9 @@ body section.container-background input {
   border-radius: 25px;
 }
 
-.ml9 {
-    position: relative;
-    font-weight: 200;
-    font-size: 4em;
+@media screen and (max-width: 780px){
+  body section.container-background p {
+    transition: font-size .5s ease-in-out;
+    font-size: 14px;
   }
-  
-  .ml9 .text-wrapper {
-    position: relative;
-    display: inline-block;
-    padding-top: 0.2em;
-    padding-right: 0.05em;
-    padding-bottom: 0.1em;
-    overflow: hidden;
-  }
-  
-  .ml9 .letter {
-    transform-origin: 50% 100%;
-    display: inline-block;
-    line-height: 1em;
-  }
-  
-.title{
-    transition: 1s ease-in-out;
 }

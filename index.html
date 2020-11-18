@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html ng-app="initApp">
+  <!-- Quando se usa routers angularjs o controller passa a ser interno ao router, logo não é necessário adicionar o controller -->
   <head>
     <title ng-bind="title"></title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <!-- Scripts Angular -->
     <script src="js/vendors/angular.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-route/1.8.2/angular-route.min.js" integrity="sha512-5zOAub3cIpqklnKmM05spv4xttemFDlbBrmRexWiP0aWV8dlayEGciapAjBQWA7lgQsxPY6ay0oIUVtY/pivXA==" crossorigin="anonymous"></script>
-  
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/angular-route/1.8.2/angular-route.min.js"
+      integrity="sha512-5zOAub3cIpqklnKmM05spv4xttemFDlbBrmRexWiP0aWV8dlayEGciapAjBQWA7lgQsxPY6ay0oIUVtY/pivXA=="
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#!">Happy</a></li>
-                <li><a href="#!sobre">Sobre</a></li>
-                <li><a href="#!contato">Contato</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="#!">Happy</a></li>
+          <li><a href="#!year1">Sobre</a></li>
+          <li><a href="#!contato">Contato</a></li>
+        </ul>
+      </nav>
     </header>
-<section ng-view></section>
-<!-- <script src="js/modules.js"></script> -->
-<script src="js/routes.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <section ng-view></section>
 
-</body>
+    <script src="js/routes.js"></script>
+  </body>
 </html>

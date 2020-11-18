@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+html,
+body {
+ 
+  height: 100vh;
+}
+
+a{
+  
+  color: black !important;
+}
+
+body section.container {
+  height: 100vh;
+  width: 100%;
+ 
+  display: flex;
+  justify-content: center;
+  background-image: url("/img/background-year-1.svg");
+  background-repeat: no-repeat;
+  align-items: center;
+
+
+  background-size: cover;
+ 
+}
+
+body section.container section.logo{
+  background-image: url('/img/logo-year1.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 60%;
+  height: 60vh;
+}
+
+body section.container section.happy{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body section.container section.happy div{
+  text-align:  center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body section.container section.happy h2{
+  color: #B92BF1;
+  margin-bottom: .1em;
+  font-size: 2vw;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+body section.container section.happy p:nth-of-type(1){
+  color: #464392;
+  font-size: 4vw;
+  text-align: center;
+  margin-bottom: .5em;
+}
+
+body section.container section.happy div p{
+  color: #303075;
+  text-align: left;
+
+  width: 80%;
+}
+
+body section.container section.happy input{
+  margin-top: 2em;
+  width: 10em;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  color: #fff;
+  background-image: linear-gradient(to right,#5506B9,#42266D);
+  border: none;
+
+}
+@media screen and (max-width: 902px){
+  body section.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("/img/background-year-1.svg");
+    background-repeat: no-repeat;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-color: white;
+  }
+}
