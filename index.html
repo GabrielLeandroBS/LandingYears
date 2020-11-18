@@ -16,19 +16,17 @@
       crossorigin="anonymous"
     ></script>
   </head>
-
   <body>
     <header>
       <nav>
         <ul>
-          <li><a href="#!">Happy</a></li>
-          <li><a href="#!year1">Happy 2</a></li>
-          <li><a href="#!contato">Contato</a></li>
+          <li ng-class="{active: activetab == '/'}"><a href="#!">Happy</a></li>
+          <li ng-class="{active: activetab == '/year1'}"><a href="#!year1">Happy 2</a></li>
+          <li ng-class="{active: activetab == '/contato'}"><a href="#!contato">Contato</a></li>
         </ul>
       </nav>
     </header>
     <section ng-view></section>
-
     <script src="js/routes.js"></script>
   </body>
 </html>

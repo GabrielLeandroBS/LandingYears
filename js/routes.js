@@ -19,6 +19,8 @@ application.config([
        title: "Temaplate 2021 - 3",
        templateUrl: "pages/contato.htm"
      })
+
+     .otherwise({ redirectTo: '/' });
    }
 ])
 
