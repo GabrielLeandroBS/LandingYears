@@ -25,13 +25,23 @@ header{
     text-align: center;
 }
 
+header nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 header nav ul{
     list-style-type: none;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 header nav ul li{
     display: inline-block;
-    margin: 20px;
+    margin: 20px 10px;
 }
 
 header nav ul li a{
