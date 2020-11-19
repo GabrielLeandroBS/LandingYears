@@ -12,9 +12,8 @@ body {
   height: 100vh;
 }
 
-a{
-  transition: color 0.5s ease-in-out;
-  color: #dcdcdc !important;
+body header nav ul li a{
+  color: #dcdcdc;
 }
 
 body section.container {
@@ -76,7 +75,6 @@ body section.container section.happy p:nth-of-type(1){
 body section.container section.happy div p{
   color: #303075;
   text-align: left;
-
   width: 80%;
 }
 

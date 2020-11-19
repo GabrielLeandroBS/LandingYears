@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+html,
+body {
+  font-size: 16px;
+  height: 100vh;
+  background-image: linear-gradient(to right, #3b307f, #8e2de2);
+}
+
+body section.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url("/img/background.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  background-size: cover;
+  padding-bottom: 1em;
+  justify-content: center;
+}
+
+body section.container section.newyear {
+  width: 40%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+body section.container section.newyear h1 {
+  text-transform: uppercase;
+  font-size: 4vw;
+  font-weight: normal;
+}
+
+body section.container section.newyear h2 {
+  text-transform: uppercase;
+  font-size: 4vw;
+  font-weight: normal;
+}
+
+body section.container section.newyear p {
+  width: 80%;
+  font-size: 1.1vw;
+  margin-top: 2em;
+}
+
+body section.container section.newyear input {
+  border: none;
+  padding: 10px;
+  width: 10em;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 27px 37px -23px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 27px 37px -23px rgba(0,0,0,0.75);
+box-shadow: 0px 27px 37px -23px rgba(0,0,0,0.75);
+  cursor: pointer;
+  margin-top: 2em;
+  color: white;
+  background-image: linear-gradient(to right, #5415ff, #d13bd1);
+}
+body section.container section.image-background {
+  background-image: url("/img/logo-main.svg");
+  width: 50%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+  background-size: contain;
+}
+
+@media screen and (max-width: 780px) {
+  body section.container {
+    flex-direction: column-reverse;
+  }
+
+  body section.container section.newyear {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  body section.container section.newyear p {
+    width: 50%;
+    text-align: center;
+    font-size: .8em;
+    margin-top: 2em;
+  }
+
+  body section.container section.image-background {
+    background-image: url(/img/logo-main.svg);
+    width: 50%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    background-size: contain;
+}
+}
