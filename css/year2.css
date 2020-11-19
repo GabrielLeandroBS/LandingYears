@@ -16,7 +16,7 @@ section.container {
 section.container section.logo-year2{
     background-image: url("/img/background-year2.svg");
     width: 50%;
-    height: 50%;
+    height: 40vh;
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
@@ -30,7 +30,6 @@ section.container section.apresentation {
   justify-content: center;
   display: flex;
   flex-direction: column;
-
 }
 
 section.container section.apresentation h1{
@@ -57,7 +56,8 @@ section.container section.apresentation input {
 @media screen and (max-width: 700px){
     section.container section.apresentation p{
         color: #808080;
-        font-size: 2vw;
+        font-size: 3vw;
         text-align: center;
     }
+  
 }
