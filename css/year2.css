@@ -37,6 +37,7 @@ section.container section.apresentation h1{
     color: #808080;
     text-transform: uppercase;
     font-size: 3vw;
+    margin-bottom: .5em;
 }
 
 section.container section.apresentation p{
@@ -51,4 +52,12 @@ section.container section.apresentation input {
     margin-top:  1em;
     width: 10em;
     background-image: linear-gradient(to right, #4871B6, #7C9DD1);
+}
+
+@media screen and (max-width: 700px){
+    section.container section.apresentation p{
+        color: #808080;
+        font-size: 2vw;
+        text-align: center;
+    }
 }
