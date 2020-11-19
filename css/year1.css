@@ -118,7 +118,7 @@ body section.container section.happy input{
   }
 
   body section.container section.happy h2{
-    font-size: 3vw;
+    font-size: 4vw;
     transition: font-size 1s ease-in-out;
   }
 
@@ -130,7 +130,7 @@ body section.container section.happy input{
 
   body section.container section.happy div p{
     color: #fff;
-    font-size: 2vw;
+    font-size: 3vw;
     text-align: center;
     transition: color 1s ease-in-out;
   }
