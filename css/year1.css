@@ -91,7 +91,7 @@ body section.container section.happy input{
   border: none;
 
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 701px){
   
   body section.container {
     height: 100vh;
@@ -113,7 +113,7 @@ body section.container section.happy input{
 
   body section.container section.logo{
     background-size: contain;
-    height: 50vh;
+    height: 40vh;
   }
   
   body section.container section.happy{
@@ -122,6 +122,7 @@ body section.container section.happy input{
 
   body section.container section.happy h2{
     font-size: 3vw;
+    transition: font-size 1s ease-in-out;
   }
 
   body section.container section.happy div p:nth-of-type(1){
@@ -132,7 +133,7 @@ body section.container section.happy input{
 
   body section.container section.happy div p{
     color: #fff;
-    font-size: 3vw;
+    font-size: 2vw;
     transition: color 1s ease-in-out;
   }
 }

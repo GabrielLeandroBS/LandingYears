@@ -12,7 +12,8 @@ application.config([
      $routeProvider.when("/year1",{
        title: "Template 2021 - 2",
        templateUrl: "pages/year1.htm",
-       css: "year1.css"
+       css: "year1.css",
+       controller: "year1"
      })
 
      $routeProvider.when("/contato",{
@@ -26,6 +27,15 @@ application.config([
 
 application.controller("newyear",function ($scope) {
   $scope.newyear = "HAPPY NEW YEAR"
+})
+
+application.controller("year1",function($scope){
+  $scope.happy = "happy",
+  $scope.subtitle = "New Year",
+  $scope.conteudo = `Lorem ipsum dolor sit amet consectetur adipisicing e
+  lit. Adipiscinatus facilis at est quis nostrum! Tempora a dolores ea id quae
+  dignissimos doloremque praesentium ipsa, ex tempore iusto facilis
+  placeat.`
 })
 
 // No AngularJS o $rootScope é um objeto que permite que nós possamos armazenar todo o escopo de nossa aplicação, e em cada aplicação nós só podemos usar um e somente um $rootScope.
