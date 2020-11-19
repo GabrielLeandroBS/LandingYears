@@ -29,6 +29,7 @@ header nav ul li{
 header nav ul li a{
     text-decoration: none;
     color: #ffffff;
+    transition: color 0.5s ease-in-out;
     font-size: 1em;
     z-index: 9;
 }
