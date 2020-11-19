@@ -95,9 +95,9 @@ body section.container section.image-background {
   }
 
   body section.container section.image-background {
-    background-image: url(/img/logo-main.svg);
+    background-image: url(/img/year-mobile.svg);
     width: 50%;
-    height: 50%;
+    height: 20%;
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
