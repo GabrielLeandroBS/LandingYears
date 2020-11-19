@@ -2,6 +2,8 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #ffffff;
+    border: none;
     box-sizing: border-box;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
