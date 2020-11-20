@@ -9,9 +9,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-input * {
-    background: #ffffff;
-    border: none;
+input[type="button"] {
+    background: #ffffff !important;
+    border: none !important;
 }
 
 html, body{
