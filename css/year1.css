@@ -95,7 +95,6 @@ body section.container section.happy input{
     width: 100%;
     display: flex;
     justify-content: center;
-    background-image: url("/img/background-year-1.svg");
     background-repeat: no-repeat;
     align-items: center;
     flex-direction: column;
